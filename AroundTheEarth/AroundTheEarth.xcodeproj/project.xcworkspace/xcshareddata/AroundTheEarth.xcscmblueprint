@@ -1,0 +1,48 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++B8A5DFD" : {
+
+    },
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++8211CFD" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "IMService_proj\/branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "IMService_proj\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "IMService_proj\/trunk"
+    },
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++F244651" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "IMService_proj\/branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "IMService_proj\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "IMService_proj\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++B8A5DFD" : 0,
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++8211CFD" : 0,
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++F244651" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD452636-539D-4948-8310-4B250FAC5E8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++B8A5DFD" : "..\/..\/Dev\/ALSDK_iOS\/QALHttpSDK_multiconn",
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++8211CFD" : "..\/..\/Dev\/ALSDK_iOS",
+    "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++F244651" : "..\/..\/Dev\/ALSDK_iOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AroundTheEarth",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AroundTheEarth.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-svn.tencent.com\/mqq\/mqq_3gplatform_rep",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++8211CFD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-svn.tencent.com\/mqq\/mqq_3gplatform_rep",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++B8A5DFD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-svn.tencent.com\/mqq\/mqq_3gplatform_rep",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a2ca9d76-8427-664d-bd65-46522cd8184c++4187+++F244651"
+    }
+  ]
+}

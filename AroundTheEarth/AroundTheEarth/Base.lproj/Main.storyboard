@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SRJ-45-2XN">
+                                <rect key="frame" x="20" y="422" width="132" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sJb-oB-9AB">
+                                <rect key="frame" x="20" y="91" width="132" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="S05-wd-JEe"/>
+                                    <constraint firstAttribute="width" constant="200" id="aQo-T3-MGO"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fMV-Bu-sMK">
+                                <rect key="frame" x="20" y="364" width="132" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WGO-30-LBX">
+                                <rect key="frame" x="20" y="478" width="132" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2E2-AV-vYz">
+                                <rect key="frame" x="20" y="304" width="132" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MKE-RP-K0Q">
+                                <rect key="frame" x="20" y="247" width="132" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sJb-oB-9AB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="71" id="1i9-uo-gbs"/>
+                            <constraint firstItem="sJb-oB-9AB" firstAttribute="trailing" secondItem="MKE-RP-K0Q" secondAttribute="trailing" id="4YR-L1-d1Z"/>
+                            <constraint firstItem="fMV-Bu-sMK" firstAttribute="leading" secondItem="SRJ-45-2XN" secondAttribute="leading" id="Ce7-9U-uGW"/>
+                            <constraint firstItem="SRJ-45-2XN" firstAttribute="trailing" secondItem="WGO-30-LBX" secondAttribute="trailing" id="KAW-K7-Rgy"/>
+                            <constraint firstItem="sJb-oB-9AB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MRa-do-JAX"/>
+                            <constraint firstItem="MKE-RP-K0Q" firstAttribute="trailing" secondItem="2E2-AV-vYz" secondAttribute="trailing" id="OSz-JT-GdQ"/>
+                            <constraint firstItem="MKE-RP-K0Q" firstAttribute="leading" secondItem="2E2-AV-vYz" secondAttribute="leading" id="UIa-vF-0bY"/>
+                            <constraint firstItem="MKE-RP-K0Q" firstAttribute="top" secondItem="sJb-oB-9AB" secondAttribute="bottom" constant="32" id="YGw-Tu-f1N"/>
+                            <constraint firstItem="2E2-AV-vYz" firstAttribute="leading" secondItem="fMV-Bu-sMK" secondAttribute="leading" id="YSb-sG-de6"/>
+                            <constraint firstItem="sJb-oB-9AB" firstAttribute="leading" secondItem="MKE-RP-K0Q" secondAttribute="leading" id="ZpW-yK-UMW"/>
+                            <constraint firstItem="fMV-Bu-sMK" firstAttribute="trailing" secondItem="SRJ-45-2XN" secondAttribute="trailing" id="ahX-Sp-nrI"/>
+                            <constraint firstItem="SRJ-45-2XN" firstAttribute="top" secondItem="fMV-Bu-sMK" secondAttribute="bottom" constant="28" id="fGk-Xg-ddA"/>
+                            <constraint firstItem="WGO-30-LBX" firstAttribute="top" secondItem="SRJ-45-2XN" secondAttribute="bottom" constant="26" id="j5o-Ey-q7l"/>
+                            <constraint firstItem="fMV-Bu-sMK" firstAttribute="top" secondItem="2E2-AV-vYz" secondAttribute="bottom" constant="30" id="oqr-cO-Nw2"/>
+                            <constraint firstItem="SRJ-45-2XN" firstAttribute="leading" secondItem="WGO-30-LBX" secondAttribute="leading" id="rZ4-Y6-Nn6"/>
+                            <constraint firstItem="2E2-AV-vYz" firstAttribute="top" secondItem="MKE-RP-K0Q" secondAttribute="bottom" constant="27" id="rba-M2-N6S"/>
+                            <constraint firstItem="2E2-AV-vYz" firstAttribute="trailing" secondItem="fMV-Bu-sMK" secondAttribute="trailing" id="sDL-4Q-g8j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DailyDistance" destination="SRJ-45-2XN" id="Tne-8T-SJL"/>
+                        <outlet property="DaysLeft" destination="fMV-Bu-sMK" id="YZl-8a-PUO"/>
+                        <outlet property="Distance" destination="2E2-AV-vYz" id="bYU-6x-X3l"/>
+                        <outlet property="Finished" destination="MKE-RP-K0Q" id="ciV-3w-SGl"/>
+                        <outlet property="HeadImage" destination="sJb-oB-9AB" id="FV3-h7-OQ7"/>
+                        <outlet property="Progress" destination="WGO-30-LBX" id="HlV-0s-6Vy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148" y="620"/>
+        </scene>
+    </scenes>
+</document>
